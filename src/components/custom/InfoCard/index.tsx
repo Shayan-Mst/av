@@ -9,7 +9,7 @@ interface IProps {
 
 const InfoCard: React.FC<IProps> = ({ info, src, title }) => {
 
-  const [isDark, setIsDark] = useState<Boolean>();
+  const [isDark, setIsDark] = useState<boolean>();
   
     useEffect(() => {
       const observer = new MutationObserver(() => {

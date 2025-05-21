@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const Achivement = () => {
 
   
-   const [isDark, setIsDark] = useState<Boolean>();
+   const [isDark, setIsDark] = useState<boolean>();
   
     useEffect(() => {
       const observer = new MutationObserver(() => {

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Footer = () => {
- const [isDark , setIsDark] = useState(false)
+ const [isDark , setIsDark] = useState<boolean>()
     useEffect(() => {
           const observer = new MutationObserver(() => {
             setIsDark(document.documentElement.classList.contains('dark'));

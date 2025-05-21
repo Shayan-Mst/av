@@ -9,7 +9,7 @@ const page = () => {
 
   const [side,setSide] = useState(true);
 
-   const [isDark, setIsDark] = useState<Boolean>();
+   const [isDark, setIsDark] = useState<boolean>();
 
   useEffect(() => {
     const observer = new MutationObserver(() => {

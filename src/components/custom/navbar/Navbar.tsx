@@ -18,7 +18,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
-  const [isDark , setIsDark] = useState(false)
+  const [isDark , setIsDark] = useState<boolean>()
   const router = useRouter();
   const pathname = usePathname();
 
