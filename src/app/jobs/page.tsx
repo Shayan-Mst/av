@@ -1,6 +1,6 @@
 "use client"
 import Navbar from '@/components/custom/navbar/Navbar'
-import React, { useState } from 'react'
+import React from 'react'
 import { job_opp } from '@/lib/helper/job/job'
 import Link from 'next/link'
 import Footer from '@/components/hompage/Footer'
