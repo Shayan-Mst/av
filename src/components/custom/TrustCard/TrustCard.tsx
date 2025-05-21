@@ -11,9 +11,10 @@ interface IProps {
  
 const TrustCard: React.FC<IProps> = ({ src,job,name,description }) => {
 
- const [isDark, setIsDark] = useState<boolean>();
+ const [isDark, setIsDark] = useState<boolean>(false);
 
   useEffect(() => {
+     setIsDark(document.documentElement.classList.contains('dark'));
     const observer = new MutationObserver(() => {
       setIsDark(document.documentElement.classList.contains('dark'));
     });

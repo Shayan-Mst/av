@@ -15,9 +15,12 @@ import Collab from "../../public/Collaborations.png"
 import collabDark from "../../public/Collaborations-dark.png"
 
 export default function Home() {
-  const [isDark, setIsDark] = useState<boolean>();
+  const [isDark, setIsDark] = useState<boolean>(false);
 
   useEffect(() => {
+
+    setIsDark(document.documentElement.classList.contains('dark'));
+
     const observer = new MutationObserver(() => {
       setIsDark(document.documentElement.classList.contains('dark'));
     });
