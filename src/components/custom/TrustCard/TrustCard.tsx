@@ -40,7 +40,7 @@ const TrustCard: React.FC<IProps> = ({ src,job,name,description }) => {
 
       <div>
        <p className="text-black-1 dark:text-white-2">
-        "{description}"
+        &quot;{description}&quot;
        </p>
       </div>
      

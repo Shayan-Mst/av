@@ -4,7 +4,7 @@ import Navbar from '@/components/custom/navbar/Navbar'
 import Footer from '@/components/hompage/Footer';
 import React, { useState } from 'react'
 
-const page = () => {
+const Page = () => {
 
  const [form, setForm] = useState({
     fullName: '',
@@ -135,4 +135,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

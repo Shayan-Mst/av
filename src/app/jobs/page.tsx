@@ -5,7 +5,7 @@ import { job_opp } from '@/lib/helper/job/job'
 import Link from 'next/link'
 import Footer from '@/components/hompage/Footer'
 
-const page = () => {
+const Page = () => {
 
   
   return (
@@ -39,4 +39,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

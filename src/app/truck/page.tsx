@@ -10,7 +10,7 @@ import CaptchaInput from '@/components/custom/Captcha/CaptchaInput'
 import Footer from '@/components/hompage/Footer'
 import DoneModal from '@/components/custom/Modals/Done/DoneModal'
 
-const page = () => {  
+const Page = () => {  
 
 const [truck,setTruck] = useState(true);
  const [isCaptchaValid, setIsCaptchaValid] = useState(false);
@@ -302,4 +302,4 @@ const [truck,setTruck] = useState(true);
   )
 }
 
-export default page
+export default Page

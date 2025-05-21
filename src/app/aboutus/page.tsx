@@ -5,7 +5,7 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import historyFrame from "../../../public/Frame 237.svg"
 
-const page = () => {
+const Page = () => {
 
   const [side,setSide] = useState(true);
 
@@ -64,4 +64,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
