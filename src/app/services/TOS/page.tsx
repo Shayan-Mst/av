@@ -6,7 +6,7 @@ import Image from 'next/image';
 import servicesSvg from "../../../../public/services.svg"
 import { usePathname } from "next/navigation";
 
-export default function page() {
+export default function Page() {
 
     
 const pathname = usePathname(); // e.g. "/services/TOS"
